@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>FS Sanja</title>
+  </head>
+  <body>
+    <div class=".container">
+<!--navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Frizerski salon Sanja</a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Naše usluge <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Zakažite termin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Često postavljena pitanja</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">O nama</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pretraživanje" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Traži</button>
+          </form>
+        </div>
+      </nav>
+<!--end of navigation-->
+
+<!--slideshow-->
+      <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="10000">
+            <img src="images/salon.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img src="images/blacktop.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/scissors.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Prethodna</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Sljedeća</span>
+        </a>
+      </div>
+<!--end of slideshow-->
+
+<!--cards-->
+      <div class="card-deck"> <h2 class="text-uppercase">Naše usluge</h2>
+        <div class="card">
+          <img src="images/cutting.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Šišanje</h5>
+            <p class="card-text">Žensko šišanje</p>
+            <p class="card-text">Muško šišanje</p>
+            <p class="card-text">Dječje šišanje</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/haircolor.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bojanje kose</h5>
+            <p class="card-text">Usluga bojanja</p>
+            <p class="card-text"></p>
+
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/hairstyle.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+<!--end of cards-->
+
+<!--accordion-->
+    <div class="harmonika"> <h2 class="text-uppercase">Često postavljena pitanja</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Kako je moguće zakazati termin?
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Zakazati termin možete na više načina - pozivanjem na fiksni telefon - 031 816 145 - na mobilni telefon -
+              091 414 4140 - osobnim dolaskom na adresu - Ante Starčevića 72 - ili kontakt formom koju možete pronaći ovdje.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Koje su cijene pojedinih usluga?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <table class="table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">Usluga</th>
+                    <th scope="col">Kratka kosa</th>
+                    <th scope="col">Duga kosa</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <th scope="row">Žensko šišanje</th>
+                  <td>50 kn</td>
+                  <td>70 kn</td>
+                </tr>
+                <tr>
+                  <th scope="row">Muško šišanje</th>
+                  <td>30 kn</td>
+                  <td>50 kn</td>
+                </tr>
+                <tr>
+                  <th scope="row">Dječje šišanje (do 11 godina)</th>
+                  <td>25 kn</td>
+                  <td>25 kn</td>
+                </tr>
+                <tr>
+                  <th scope="row">Usluga bojanja kose</th>
+                  <td>100 kn</td>
+                  <td>120 kn</td>
+                </tr>
+                <tr>
+                  <th scope="row">Fen frizure</th>
+                  <td>70 kn</td>
+                  <td>90 kn</td>
+                </tr>
+                <tr>
+                  <th scope="row">Svečane frizure</th>
+                  <td>90 kn</td>
+                  <td>120 kn</td>
+                </tr>
+                <tr>
+                  <th scope="row">Pranje i sušenje kose</th>
+                  <td>25 kn</td>
+                  <td>25 kn</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Radite li subotom?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Subotom radimo od 09:00 do 13:00, a kompletno radno vrijeme možete pronaći ovdje.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--kraj accordiona-->
+
+<!--forma i radno vrijeme-->
+    <div class="row row-cols-2 row-cols-md-12">
+      <div class="col mb-6">
+        <form>
+          <div class="form-group"> <h2 class="text-uppercase">Zakažite termin</h2>
+            <label for="imeiprezime">Ime i prezime</label>
+            <input type="email" class="form-control" id="imeiprezime" placeholder="Ime i Prezime">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail adresa</label>
+            <input type="email" class="form-control" id="email" placeholder="E-mail adresa">
+          </div>
+          <div class="form-group">
+            <label for="brojtelefona">Broj telefona</label>
+            <input type="email" class="form-control" id="brojtelefona" placeholder="Broj telefona">
+          </div>
+          <div class="form-group">
+            <label for="ostalapitanja">Ostala pitanja</label>
+            <textarea class="form-control" id="ostalapitanja" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
+
+      <div class="col mb-6"> <h2 class="text-uppercase">Radno vrijeme</h2>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Dan</th>
+              <th scope="col">Od</th>
+              <th scope="col">Do</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Ponedjeljak</th>
+              <td>08:00</td>
+              <td>20:00</td>
+            </tr>
+            <tr>
+              <th scope="row">Utorak</th>
+              <td>08:00</td>
+              <td>20:00</td>
+            </tr>
+            <tr>
+              <th scope="row">Srijeda</th>
+              <td>08:00</td>
+              <td>20:00</td>
+            </tr>
+            <tr>
+              <th scope="row">Četvrtak</th>
+              <td>08:00</td>
+              <td>20:00</td>
+            </tr>
+            <tr>
+              <th scope="row">Petak</th>
+              <td>08:00</td>
+              <td>20:00</td>
+            </tr>
+            <tr>
+              <th scope="row">Subota</th>
+              <td>09:00</td>
+              <td>13:00</td>
+            </tr>
+            <tr>
+              <th scope="row">Nedjelja</th>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+<!--kraj forme i radnom vremena-->
+
+<!--footer-->
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+      <div class="container-fluid text-center text-md-left">
+
+        <div class="row">
+
+          <div class="col-md-4 mt-md-0 mt-3">
+
+            <h5 class="text-uppercase">Osnovne informacije</h5>
+            <p>Frizerski salon Sanja</p>
+            <p>Ulica Ante Starčevića 72</p>
+            <p>31400 Đakovo</p>
+            <p>Telefon: 031 816 145</p>
+            <p>Mobilni telefon: 091 414 4140</p>
+
+          </div>
+
+          <hr class="clearfix w-100 d-md-none pb-3">
+
+            <div class="view overlay z-depth-1-half">
+              <img src="images/logo.jpg" class="img-fluid" alt="">
+              <a href="">
+              <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+
+          <div class="col-md-4 mb-md-0 mb-3">
+
+            <h5 class="text-uppercase">Navigacija</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Naše usluge</a>
+              </li>
+              <li>
+                <a href="#!">Zakažite termin</a>
+              </li>
+              <li>
+                <a href="#!">Često postavljena pitanja</a>
+              </li>
+              <li>
+                <a href="#!">O nama</a>
+              </li>
+            </ul>
+
+
+          </div>
+        </div>
+      </div>
+
+    </footer>
+<!--kraj footera-->
+
+  </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

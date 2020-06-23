@@ -1,0 +1,13 @@
+.card-deck {
+    padding: 20px;
+}
+
+.carousel-inner {
+    padding: 20px;
+}
+
+.accordion {
+    margin: 20px;
+    border-radius: 2%;
+    border: 15px solid green;
+}
